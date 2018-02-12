@@ -309,6 +309,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 }
  
 .clear {
+	font-size: 10px;
 	clear: both;
 	display: inline-block;
 }
