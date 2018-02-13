@@ -13,7 +13,9 @@ body {
 	margin:0;
 	padding:0;
 }
-
+img{
+	max-width: 60%;
+}
 
 /** element defaults **/
 table {
@@ -56,7 +58,7 @@ a:hover {
 a:focus {
 	outline:none;
 }
-a.button { 
+a.button {
     background-color: #e75626;
     border-radius: 5px;
     color: #FFFFFF;
@@ -69,7 +71,7 @@ a.button {
     text-transform: uppercase;
 }
 
-a.button-reversed { 
+a.button-reversed {
     background-color: #333;
 }
 
@@ -172,7 +174,7 @@ header {
 	padding:30px 17px 30px;
 	margin:0 auto;
 }
-header h1 { 
+header h1 {
 	text-align: right;
 }
 
@@ -273,7 +275,7 @@ font-size: 0.92em;
 padding: 0px 0px 10px;
 }
 
-article .article-info a { 
+article .article-info a {
 	color: #ccc;
 }
 
@@ -307,9 +309,8 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 	line-height: 0;
 	height: 0;
 }
- 
+
 .clear {
-	font-size: 10px;
 	clear: both;
 	display: inline-block;
 }
@@ -323,7 +324,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 
 @media screen and (max-width: 740px) {
 
-	body { font-size: 0.9em; }	
+	body { font-size: 0.9em; }
 
 
 	.width { width:auto; padding-left: 10px; padding-right: 10px; }
@@ -331,10 +332,10 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 	.column-left, .column-right { margin:0px; }
 
 	header h1, header h2, nav#mainnav li a { text-align:center; }
-	
+
 	section#content, aside#sidebar { position: relative; float: none; width: auto; margin-left: 0; }
 
-	
+
 }
 
 
@@ -358,4 +359,22 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 	display: block;
 	font-size: 20px;
 	margin: auto;
+}
+
+IMG.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+	text-align: center;
+}
+
+figure{
+	margin: 50px;
+}
+
+li{
+	margin : 30px;
 }
