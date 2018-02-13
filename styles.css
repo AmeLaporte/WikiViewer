@@ -319,9 +319,6 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 }
 
 
-
-
-
 @media screen and (max-width: 740px) {
 
 	body { font-size: 0.9em; }
@@ -373,8 +370,4 @@ figcaption{
 
 figure{
 	margin: 50px;
-}
-
-li{
-	margin : 30px;
 }
